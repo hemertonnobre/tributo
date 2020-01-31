@@ -1,0 +1,124 @@
+body,p{
+  padding: 0;
+  margin: 0
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    width:990px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+ul{
+    list-style: none;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin:0;
+}
+  li a,.rodape a{
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size:1.5rem;
+    color:  fff;
+    margin-left: .5rem;
+    font-family: 'Marck Script', cursive;   
+}
+h1{
+    color: #000;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Marck Script', cursive; 
+}
+nav li{
+    display: inline;
+}
+nav{
+    display: flex;
+}
+#banner{ 
+    background-image:url('../image/sennaimg1.jpg');
+    background-position:center;
+    background-size:cover;  
+}
+.assinatura{
+    display: flex;
+    justify-content:center;
+    margin:0;
+    color: fff;
+    font-size:10rem;
+    font-family: 'Marck Script', cursive;
+}
+.fundo{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color:fff;
+}
+.foto{
+    margin:20 0 20 0;
+    padding: 10px 10px 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ccc;
+}
+.imgprincipal{
+    background-image:url('../image/sennaimg4.jpg');
+    background-size:cover;
+    height:287px;
+    width: 192px;      
+}
+thead{
+    font-size: 2rem;
+    color:#c4302b ;
+}
+table{
+    
+    margin:20 20 0 20;
+}
+td{
+    padding:.5rem;
+}
+.frase,.frase1,.frase3{
+font-size: 1.3rem;
+background-color: #ccc;
+box-shadow:10px 10px 5px #aaaaaa;
+width: 14rem;
+font-family: 'Marck Script', cursive;
+}
+h2{
+    font-size: 3rem;
+    color:#009c3b ;
+}
+p{
+    padding:.8rem;
+}
+.frases{
+    width: 44rem;
+   align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frase1{
+    align-self: flex-start;
+}
+.frase3{
+    align-self: flex-end;
+}
+footer{
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: #000;
+    height: 4rem; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
